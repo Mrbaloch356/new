@@ -21,7 +21,7 @@ bit = platform.architecture()[0]
 if bit=='64bit':
 
     print(f'{green}[•] BYPASS BY UNKNOWN {white}')
-    print(f'{yellow}[•] Join Over GROUP {white}')
+    print(f'{red}[•] Join Over GROUP {white}')
 
     os.system('xdg-open https://chat.whatsapp.com/GXiVEsLjhjq1P4pOno8YHB')
 
